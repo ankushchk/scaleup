@@ -5,8 +5,8 @@ import BlockTitle from "components/block-title";
 import Image from "components/image";
 import { AiFillFileAdd } from "react-icons/ai";
 import { RiHomeSmile2Fill } from "react-icons/ri";
-import tabImage1 from "assets/tab-image-1.png";
-
+import tabImage1 from "assets/final-tab-01.png";
+import tabImage2 from "assets/final-tab-02.png";
 import dotPattern from "assets/dot-pattern.svg";
 
 const Featured = () => {
@@ -64,7 +64,7 @@ const Featured = () => {
             <Image src={tabImage1} alt="tab image" className="tabImage" />
           )}
           {tab.active === "adjust" && (
-            <Image src={tabImage1} alt="tab image" className="tabImage" />
+            <Image src={tabImage2} alt="tab image" className="tabImage" />
           )}
         </Box>
       </Container>
