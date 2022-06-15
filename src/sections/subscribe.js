@@ -17,7 +17,13 @@ const Subscribe = () => {
         <MailchimpSubscribe
           url={url}
           render={({ subscribed, status, message }) => (
-            <div>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                padding: "5px",
+              }}
+            >
               <SimpleForm onSubmitted={(formData) => subscribed(formData)} />
               {status === "sending" && (
                 <div style={{ color: "blue" }}>Sending...</div>
