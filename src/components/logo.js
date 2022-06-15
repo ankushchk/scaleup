@@ -12,7 +12,7 @@ export default function Logo({ image }) {
         alignItems: 'center',
       }}
     >
-      <Image src={image} alt="startup landing logo" />
+      <Image src={image} alt="scale up logo" />
     </Link>
   );
 }

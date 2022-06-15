@@ -12,7 +12,7 @@ export default [
       },
       {
         path: '/',
-        label: 'Careers & Culture    ',
+        label: 'Careers & Culture',
       },
       {
         path: '/',

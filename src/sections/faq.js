@@ -7,73 +7,56 @@ import Accordion from "components/accordion/accordion";
 const accordionData = [
   {
     isExpanded: false,
-    title: "How much does it cost to be a credit card merchant?",
+    title: "How much does it cost for a single project or marketing campaign?",
     contents: (
       <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
+        It depends on the type of project and the type of marketing campaign, we
+        usually charge $200 - $10,000 for a project or marketing campaign.
       </div>
     ),
   },
   {
     isExpanded: true,
-    title: "How can I open a merchant account?",
+    title: "How you accept the payment?",
     contents: (
       <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
+        We accept the payment through Stripe, and Paypal. We also accept payment
+        in other mediums as the time permits.
       </div>
     ),
   },
   {
     isExpanded: false,
-    title: "How long does the application take?",
+    title:
+      "How long does it take complete the marketing campaign and the project at your company?",
     contents: (
       <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
+        It depends on the type of project and the type of marketing campaign, we
+        generally take 1-2 weeks for small projects and 3-4 weeks for large
+        projects.
       </div>
     ),
   },
   {
     isExpanded: false,
-    title: "Can I make payment outside of Hong Kong?",
+    title: "If I make a mistake, how do I get back the money?",
     contents: (
       <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
+        If you make a mistake, we will refund you the money within 3-4 days.
       </div>
     ),
   },
   {
     isExpanded: false,
-    title: "How do I get the payment complete?",
+    title: "If I pay with a credit card, how do I know if it was successful?",
     contents: (
-      <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
-      </div>
+      <div>We will send you an email after the payment is successful.</div>
     ),
+  },
+  {
+    isExpanded: false,
+    title: "Do you also do SEO for websites?",
+    contents: <div>Yes, we do SEO for websites.</div>,
   },
 ];
 
