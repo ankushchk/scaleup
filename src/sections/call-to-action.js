@@ -27,9 +27,26 @@ const CallToAction = () => {
               logistics, while you enjoy superior results being generated on a
               daily basis.
             </Text>
-            <Link path="#" sx={styles.button}>
-              Email Us
-            </Link>
+            <a href="mailto:ac.ankushchauhan.2006@gmail.com">
+              <button
+                style={{
+                  display: "inline-block",
+                  verticalAlign: "middle",
+                  backgroundColor: "#02073E",
+                  color: "#fff",
+                  borderRadius: "5px",
+                  fontSize: "16px",
+                  fontWeight: 700,
+                  p: "6.5px 19px",
+                  letterSpacing: "-0.16px",
+                  cursor: "pointer",
+                  padding: "10px",
+                  fontFamily: "DM Sans",
+                }}
+              >
+                Email Us
+              </button>
+            </a>
           </Box>
           <Box sx={styles.images}>
             <Image src={callImage} alt="call image" />
@@ -78,21 +95,6 @@ const styles = {
       color: "#02073E",
       fontSize: ["16px", null, null, "18px"],
       mb: "30px",
-    },
-  },
-  button: {
-    display: "inline-block",
-    verticalAlign: "middle",
-    backgroundColor: "#02073E",
-    color: "#fff",
-    borderRadius: "5px",
-    fontSize: "16px",
-    fontWeight: 700,
-    p: "6.5px 19px",
-    letterSpacing: "-0.16px",
-    transition: "all 500ms ease",
-    "&:hover": {
-      opacity: 0.8,
     },
   },
   images: {

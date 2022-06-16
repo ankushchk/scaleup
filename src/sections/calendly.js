@@ -1,6 +1,5 @@
 import React from "react";
 import { Box, Container, Flex, Text, Heading, Image } from "theme-ui";
-import { Link } from "components/link";
 
 const Calendly = () => {
   return (
@@ -18,9 +17,26 @@ const Calendly = () => {
               and online sales. Simply locate a time-slot that would suit your
               calendar, and lock it in. We’re looking forward to talking to you.
             </Text>
-            <Link path="#" sx={styles.button}>
-              Contact Us
-            </Link>
+            <a href="mailto:ac.ankushchauhan.2006@gmail.com">
+              <button
+                style={{
+                  display: "inline-block",
+                  verticalAlign: "middle",
+                  backgroundColor: "#02073E",
+                  color: "#fff",
+                  borderRadius: "5px",
+                  fontSize: "16px",
+                  fontWeight: 700,
+                  p: "6.5px 19px",
+                  letterSpacing: "-0.16px",
+                  cursor: "pointer",
+                  padding: "10px",
+                  fontFamily: "DM Sans",    
+                }}
+              >
+                Contact Us
+              </button>
+            </a>
           </Box>
           <Box sx={styles.popup}>
             <div style={{ height: "800px" }}>

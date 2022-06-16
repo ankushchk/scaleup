@@ -80,9 +80,9 @@ const FAQ = () => {
               If your question is not list here, please feel free to make a
               manual support.
             </Text>
-            <Link sx={styles.askButton} path="">
-              Ask your Question
-            </Link>
+            <a href="mailto:ac.ankushchauhan.2006@gmail.com">
+              <Box sx={styles.askButton}>Ask your Question</Box>
+            </a>
           </Box>
         </Flex>
       </Container>
