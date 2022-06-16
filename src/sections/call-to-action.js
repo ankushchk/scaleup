@@ -1,6 +1,5 @@
 import React from "react";
 import { Box, Container, Flex, Text, Heading, Image } from "theme-ui";
-import { Link } from "components/link";
 
 import callImage from "assets/call-image.png";
 
