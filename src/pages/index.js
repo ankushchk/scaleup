@@ -11,6 +11,7 @@ import Featured from "sections/featured";
 import Testimonials from "sections/testimonials";
 import FAQ from "sections/faq";
 import Subscribe from "sections/subscribe";
+import Calendly from "sections/calendly";
 
 export default function IndexPage() {
   return (
@@ -24,6 +25,7 @@ export default function IndexPage() {
           <CallToAction />
           <Featured />
           <FAQ />
+          <Calendly />
           <Subscribe />
         </Layout>
       </StickyProvider>

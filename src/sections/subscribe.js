@@ -1,6 +1,6 @@
 import React from "react";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
-import { Button, Input, Box, Container, Heading, Text } from "theme-ui";
+import { Box, Container, Heading, Text } from "theme-ui";
 
 const url =
   "https://gmail.us2.list-manage.com/subscribe/post?u=989b761a1ceeeb1e6bebd6d31&id=9a3ee38a37";
