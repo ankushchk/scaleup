@@ -41,7 +41,7 @@ const Calendly = () => {
           <Box sx={styles.popup}>
             <div style={{ height: "800px" }}>
               <iframe
-                src="https://calendly.com/ankushchauhan/30min?hide_gdpr_banner=1"
+                src="https://calendly.com/ankushchauhan/30min"
                 width="100%"
                 height="100%"
                 frameborder="0"
